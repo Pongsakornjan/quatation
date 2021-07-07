@@ -1,1 +1,1 @@
-web : gunicorn quatation.wsgi
+web: gunicorn quatation.wsgi
