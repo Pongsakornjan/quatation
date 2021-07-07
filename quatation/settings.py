@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'quatation.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME':'db.sqlite3',
-        'USER':'ddd',
-        'PASSWORD':'db.sqlite3',
-        'HOST':'db.sqlite3',
-        'PORT':'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME':'dcqf0r2k7of6oh',
+        'USER':'srsmwkzsibqrxs',
+        'PASSWORD':'a3a1714c6fd6298680f0b37bdb3a94538d2bffff1bf83ac5b42dbee37d2a5c89',
+        'HOST':'ec2-23-20-124-77.compute-1.amazonaws.com',
+        'PORT':'5432',
         'CONN_MAX_AGE': 500,
     }
 }
